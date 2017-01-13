@@ -1,0 +1,208 @@
+/*------------------------Global------------------------*/
+
+@font-face {
+	font-family: prof;
+	src: url('neuw.otf');
+}
+
+@font-face {
+	font-family: til;
+	src: url('dist_gal.ttf');
+}
+
+body {
+	background-color: #0d0d0d;
+}
+
+#title {	
+	font-family: prof;
+	font-size: 75px;
+	background-color: #99cbff;
+	padding: 50px;
+	text-align: center;
+	border-radius: 30px;
+}
+
+.drawer{
+    z-index: 10;
+	background-color: #666666;
+	border-radius: 5px;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav {
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 10px;
+    background-color: #00a197;
+    font-family: prof;
+}
+
+/*------------------------Home------------------------*/
+
+.container_light{
+	position:relative;
+	top:60px;
+	background-color: #1a1a1a;
+	padding-left: 50px;
+	border-radius: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container_dark{
+	position:relative;
+	top:60px;
+	background-color: #0d0d0d;
+	padding-left: 50px;
+	border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#lite {
+    float: left;
+    width: 850px;
+	font-family: prof;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+h5 {
+	font-family: prof;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+#dark {
+    float: right;
+    width: 850px;
+	font-family: prof;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+/*------------------------Members------------------------*/
+
+.container_mem{
+	position:relative;
+	bottom:60px;
+	background-color: #1a1a1a;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-left: 400px;
+	padding-right: 20px;
+	border-radius: 10px;
+}
+
+ul {
+	background-color: #666666;
+	border-radius: 5px;
+}
+
+.offc{
+	font-family: prof;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+#ofc{
+	font-size:50px;
+	font-family: til;
+	color: #141414;
+	text-align:center;
+	background-color: #808080;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.senr{
+	font-family: prof;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+#snr {
+	font-size:50px;
+	font-family: til;
+	color: #141414;
+	text-align:center;
+	background-color: #a6a6a6;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.litl{
+	font-family: prof;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+#ltl {
+	font-size:50px;
+	font-family: til;
+	color: #141414;
+	text-align:center;
+	background-color: #cccccc;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+/*------------------------Events------------------------*/
+
+#compl {
+	font-size:50px;
+	font-family: til;
+	color: #141414;
+	text-align:center;
+	background-color: #808080;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#evlist {
+	font-family: prof;
+	background-color: #c88d00;
+	border-radius: 5px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#vote {
+	font-family: prof;
+	background-color: #ff0000;
+	border-radius: 5px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.event {
+	font-family: prof;
+	background-color: #1a1a1a;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	padding-left: 400px;
+	padding-right: 20px;
+	border-radius: 10px;
+}
+
+#subev {
+    font-family: prof;
+	background-color: #757575;
+	border-radius: 5px;
+    padding: 5px;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+}
