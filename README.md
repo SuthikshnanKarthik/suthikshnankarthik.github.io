@@ -1,2 +1,2 @@
-# suthikshnankarthik.github.io
-Website
+# Suthikshnan Karthik's Global Studies
+Website for Global Studies
